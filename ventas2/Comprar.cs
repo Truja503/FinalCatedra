@@ -73,7 +73,10 @@ namespace ventas2
                     orden.Precio = Double.Parse(txtPrecio.Text);
                     db.Facturas.Add(orden); // Agregar la nueva orden a la base de datos
                     db.SaveChanges(); // Intentar guardar los cambios
-                    MessageBox.Show("Orden guardada exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    FormCompletado complete = new FormCompletado();
+                    complete.Show();
+                    this.Hide();
+
                 }
                 catch (Exception ex)
                 {

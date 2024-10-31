@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Publico));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -37,48 +38,53 @@
             this.label1 = new System.Windows.Forms.Label();
             this.PanelTargetas = new System.Windows.Forms.FlowLayoutPanel();
             this.txtUsuario = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkRed;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.pictureBox7);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1283, 58);
+            this.panel2.Size = new System.Drawing.Size(1230, 58);
             this.panel2.TabIndex = 24;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label12.Location = new System.Drawing.Point(231, 12);
+            this.label12.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Moccasin;
+            this.label12.Location = new System.Drawing.Point(493, 9);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(246, 39);
+            this.label12.Size = new System.Drawing.Size(183, 46);
             this.label12.TabIndex = 19;
-            this.label12.Text = "Nuestro autos";
+            this.label12.Text = "AutoElite";
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(75, 30);
+            this.pictureBox7.Size = new System.Drawing.Size(135, 58);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.Color.Black;
-            this.btnRegresar.Location = new System.Drawing.Point(698, 77);
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRegresar.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.Moccasin;
+            this.btnRegresar.Location = new System.Drawing.Point(693, 77);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(90, 35);
+            this.btnRegresar.Size = new System.Drawing.Size(107, 38);
             this.btnRegresar.TabIndex = 20;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
@@ -86,11 +92,12 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscar.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.Moccasin;
             this.btnBuscar.Location = new System.Drawing.Point(534, 77);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(101, 38);
+            this.btnBuscar.Size = new System.Drawing.Size(118, 38);
             this.btnBuscar.TabIndex = 25;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -120,29 +127,44 @@
             this.PanelTargetas.AutoScroll = true;
             this.PanelTargetas.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.PanelTargetas.BackColor = System.Drawing.SystemColors.Control;
+            this.PanelTargetas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelTargetas.BackgroundImage")));
+            this.PanelTargetas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelTargetas.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelTargetas.Location = new System.Drawing.Point(0, 121);
+            this.PanelTargetas.Location = new System.Drawing.Point(0, 418);
             this.PanelTargetas.Name = "PanelTargetas";
-            this.PanelTargetas.Size = new System.Drawing.Size(1283, 460);
+            this.PanelTargetas.Size = new System.Drawing.Size(1230, 315);
             this.PanelTargetas.TabIndex = 28;
             this.PanelTargetas.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelTargetas_Paint);
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(899, 82);
+            this.txtUsuario.Location = new System.Drawing.Point(899, 75);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(75, 23);
+            this.txtUsuario.Size = new System.Drawing.Size(88, 38);
             this.txtUsuario.TabIndex = 29;
             this.txtUsuario.Text = "Usuario";
             this.txtUsuario.UseVisualStyleBackColor = true;
             this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(173, 138);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(406, 274);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // Publico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1283, 581);
+            this.ClientSize = new System.Drawing.Size(1230, 733);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.PanelTargetas);
@@ -157,6 +179,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +196,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel PanelTargetas;
         private System.Windows.Forms.Button txtUsuario;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

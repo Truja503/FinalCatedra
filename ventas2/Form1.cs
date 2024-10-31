@@ -49,7 +49,7 @@ namespace ventas2
             // Primero verificamos en la tabla de Usuarios
             using (var dbContext = new ConsesionariaEntities())
             {
-                var usuario = dbContext.Usuarios.FirstOrDefault(u => u.Nombre == nombreUsuario && u.Contraseña == contraseña);
+                var usuario = dbContext.Usuarios.FirstOrDefault(u => u.Correo.ToLower() == nombreUsuario.ToLower() && u.Contraseña == contraseña);
 
                 if (usuario != null)
                 {
@@ -78,7 +78,7 @@ namespace ventas2
                     else
                     {
                         // Si no está en ninguna de las tablas, mostramos un mensaje de error
-                        MessageBox.Show("Usuario o contraseña incorrectos. Intente de nuevo.");
+                        MessageBox.Show("Correo o contraseña incorrectos. Intente de nuevo.");
                     }
                 }
             }
@@ -90,6 +90,11 @@ namespace ventas2
             FormRegistrar registro = new FormRegistrar();
             registro.Show();
             this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

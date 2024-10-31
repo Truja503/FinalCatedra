@@ -113,5 +113,12 @@ namespace ventas2
                 return false;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Publico publico = new Publico();
+            publico.Show();
+            this.Close();
+        }
     }
 }
