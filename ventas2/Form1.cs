@@ -55,7 +55,6 @@ namespace ventas2
                 {
                     login.idUser = usuario.IdUser;
                     login.username = usuario.Nombre;
-                    MessageBox.Show($"Hola {usuario.Nombre} {usuario.Apellido} , {login.username}  bienvenido a la aplicación.");
                     Publico publico = new Publico();
                     publico.Show();
                     this.Hide();
