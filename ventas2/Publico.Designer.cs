@@ -35,10 +35,11 @@
             this.btnRegresar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.PanelTargetas = new System.Windows.Forms.FlowLayoutPanel();
             this.txtUsuario = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -48,7 +49,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
             this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.txtUsuario);
             this.panel2.Controls.Add(this.pictureBox7);
+            this.panel2.Controls.Add(this.txtBuscar);
+            this.panel2.Controls.Add(this.btnBuscar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -79,25 +83,25 @@
             // 
             // btnRegresar
             // 
-            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresar.ForeColor = System.Drawing.Color.Moccasin;
-            this.btnRegresar.Location = new System.Drawing.Point(693, 77);
+            this.btnRegresar.Location = new System.Drawing.Point(12, 74);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(107, 38);
+            this.btnRegresar.Size = new System.Drawing.Size(115, 38);
             this.btnRegresar.TabIndex = 20;
-            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.Text = "Salir";
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBuscar.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.Color.Moccasin;
-            this.btnBuscar.Location = new System.Drawing.Point(534, 77);
+            this.btnBuscar.Location = new System.Drawing.Point(972, 26);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(118, 38);
+            this.btnBuscar.Size = new System.Drawing.Size(105, 27);
             this.btnBuscar.TabIndex = 25;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -105,22 +109,14 @@
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
-            this.txtBuscar.Location = new System.Drawing.Point(271, 77);
+            this.txtBuscar.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBuscar.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.ForeColor = System.Drawing.Color.Moccasin;
+            this.txtBuscar.Location = new System.Drawing.Point(709, 26);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(257, 38);
+            this.txtBuscar.Size = new System.Drawing.Size(257, 27);
             this.txtBuscar.TabIndex = 27;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(167, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 31);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Autos:";
             // 
             // PanelTargetas
             // 
@@ -130,32 +126,58 @@
             this.PanelTargetas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelTargetas.BackgroundImage")));
             this.PanelTargetas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelTargetas.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelTargetas.Location = new System.Drawing.Point(0, 418);
+            this.PanelTargetas.Location = new System.Drawing.Point(0, 364);
             this.PanelTargetas.Name = "PanelTargetas";
-            this.PanelTargetas.Size = new System.Drawing.Size(1230, 315);
+            this.PanelTargetas.Size = new System.Drawing.Size(1230, 369);
             this.PanelTargetas.TabIndex = 28;
             this.PanelTargetas.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelTargetas_Paint);
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(899, 75);
+            this.txtUsuario.BackColor = System.Drawing.Color.Moccasin;
+            this.txtUsuario.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.txtUsuario.FlatAppearance.BorderSize = 2;
+            this.txtUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtUsuario.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(1112, 20);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(88, 38);
+            this.txtUsuario.Size = new System.Drawing.Size(106, 38);
             this.txtUsuario.TabIndex = 29;
             this.txtUsuario.Text = "Usuario";
-            this.txtUsuario.UseVisualStyleBackColor = true;
+            this.txtUsuario.UseVisualStyleBackColor = false;
             this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(173, 138);
+            this.pictureBox1.Location = new System.Drawing.Point(188, 84);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(406, 274);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Moccasin;
+            this.label1.Location = new System.Drawing.Point(661, 84);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(295, 46);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Nombre Vehiculo";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Moccasin;
+            this.label2.Location = new System.Drawing.Point(682, 180);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Marca";
             // 
             // Publico
             // 
@@ -164,13 +186,11 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1230, 733);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.PanelTargetas);
-            this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.txtBuscar);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Name = "Publico";
             this.Text = "Publico";
@@ -193,9 +213,10 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel PanelTargetas;
         private System.Windows.Forms.Button txtUsuario;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
