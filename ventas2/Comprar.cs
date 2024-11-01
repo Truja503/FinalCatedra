@@ -108,16 +108,25 @@ namespace ventas2
             {
                 try
                 {
+                    
                     if (int.Parse(txtCantidad.Text) <= 0)
                     {
                         MessageBox.Show("Ingresa una cantidad entera positiva", "Error", MessageBoxButtons.OK);
                     }
+            
                     else
                     {
                         using (ConsesionariaEntities db = new ConsesionariaEntities()) {
                             var vehiculo = db.Vehiculoes.Find(NombreId);
-                            var total = vehiculo.Precio * int.Parse(txtCantidad.Text);
-                            txtPrecio.Text = total.ToString();
+                            if (vehiculo.Cantidad < int.Parse(txtCantidad.Text))
+                            {
+                                MessageBox.Show("No tenemos tantos productos en stock!");
+                            }
+                            else
+                            {
+                                var total = vehiculo.Precio * int.Parse(txtCantidad.Text);
+                                txtPrecio.Text = total.ToString();
+                            }
                          }
                     }
                 }

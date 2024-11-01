@@ -21,7 +21,12 @@ namespace ventas2
         {
             Publico Inicio = new Publico();
             Inicio.Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void FormCompletado_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
         }
     }
 }

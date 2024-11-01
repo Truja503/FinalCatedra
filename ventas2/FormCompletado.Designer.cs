@@ -85,6 +85,7 @@
             this.Controls.Add(label1);
             this.Name = "FormCompletado";
             this.Text = "Gracias por su compra";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormCompletado_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

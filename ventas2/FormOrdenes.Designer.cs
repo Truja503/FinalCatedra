@@ -278,6 +278,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "FormOrdenes";
             this.Text = "FormOrdenes";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormOrdenes_FormClosed);
             this.Load += new System.EventHandler(this.FormOrdenes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource1)).EndInit();

@@ -33,12 +33,12 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.PanelTargetas = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -96,6 +96,16 @@
             this.label12.Size = new System.Drawing.Size(135, 49);
             this.label12.TabIndex = 19;
             this.label12.Text = "Editor";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(59, 55);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // label1
             // 
@@ -163,16 +173,6 @@
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(59, 55);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
             // PanelTargetas
             // 
             this.PanelTargetas.AutoScroll = true;
@@ -180,9 +180,9 @@
             this.PanelTargetas.BackgroundImage = global::ventas2.Properties.Resources.Imagen_de_WhatsApp_2024_10_31_a_las_15_37_57_c74864d3;
             this.PanelTargetas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelTargetas.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelTargetas.Location = new System.Drawing.Point(0, 171);
+            this.PanelTargetas.Location = new System.Drawing.Point(0, 138);
             this.PanelTargetas.Name = "PanelTargetas";
-            this.PanelTargetas.Size = new System.Drawing.Size(1043, 472);
+            this.PanelTargetas.Size = new System.Drawing.Size(1043, 505);
             this.PanelTargetas.TabIndex = 0;
             this.PanelTargetas.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelTargetas_Paint);
             // 

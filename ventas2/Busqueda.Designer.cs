@@ -53,6 +53,7 @@
             this.Controls.Add(this.PanelTargetas2);
             this.Name = "Busqueda";
             this.Text = "Busqueda";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Busqueda_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

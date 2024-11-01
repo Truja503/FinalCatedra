@@ -128,5 +128,16 @@ namespace ventas2
             }
         }
 
+        private void FormEditar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            FormAgregarProducto formAgregarProducto = new FormAgregarProducto();
+            formAgregarProducto.Show();
+            this.Hide();
+        }
     }
 }

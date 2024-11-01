@@ -43,5 +43,10 @@ namespace ventas2
         {
             // Dejar vacío o agregar algún código de diseño adicional si es necesario
         }
+
+        private void Busqueda_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

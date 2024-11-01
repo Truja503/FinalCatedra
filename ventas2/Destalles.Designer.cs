@@ -274,6 +274,7 @@
             this.Name = "Destalles";
             this.Text = "Detalles";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Destalles_FormClosed);
             this.Load += new System.EventHandler(this.Destalles_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImagenDetalle)).EndInit();
             this.ResumeLayout(false);

@@ -118,7 +118,7 @@ namespace ventas2
         {
             Publico publico = new Publico();
             publico.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void txtCiudad_TextChanged(object sender, EventArgs e)
@@ -189,6 +189,23 @@ namespace ventas2
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FormUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using (ConsesionariaEntities db = new ConsesionariaEntities())
+            {
+                var usuario = db.EliminarUsuario(login.idUser);
+                MessageBox.Show("Usuario eliminado correctamente");
+                Form1 form1 = new Form1();
+                form1.Show();
+                this.Hide();
+            }
         }
     }
 }

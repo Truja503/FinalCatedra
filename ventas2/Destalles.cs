@@ -205,5 +205,10 @@ namespace ventas2
         {
 
         }
+
+        private void Destalles_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

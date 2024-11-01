@@ -35,7 +35,14 @@ namespace ventas2
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
+            FormAgregarProducto formAgregar = new FormAgregarProducto();
+            formAgregar.Show();
+            this.Hide();
+        }
 
+        private void FormOrdenes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
