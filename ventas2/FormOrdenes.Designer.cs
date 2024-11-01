@@ -34,15 +34,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.verFacturaCompletaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.facturasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.consesionariaDataSet1 = new ventas2.ConsesionariaDataSet1();
-            this.consesionariaDataSet = new ventas2.ConsesionariaDataSet();
-            this.consesionariaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.facturasTableAdapter = new ventas2.ConsesionariaDataSet1TableAdapters.FacturasTableAdapter();
-            this.consesionariaDataSet2 = new ventas2.ConsesionariaDataSet2();
-            this.verFacturaCompletaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.verFacturaCompletaTableAdapter = new ventas2.ConsesionariaDataSet2TableAdapters.VerFacturaCompletaTableAdapter();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,16 +44,25 @@
             this.nombreMarcaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.verFacturaCompletaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.consesionariaDataSet2 = new ventas2.ConsesionariaDataSet2();
+            this.verFacturaCompletaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.facturasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.consesionariaDataSet1 = new ventas2.ConsesionariaDataSet1();
+            this.consesionariaDataSet = new ventas2.ConsesionariaDataSet();
+            this.consesionariaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.facturasTableAdapter = new ventas2.ConsesionariaDataSet1TableAdapters.FacturasTableAdapter();
+            this.verFacturaCompletaTableAdapter = new ventas2.ConsesionariaDataSet2TableAdapters.VerFacturaCompletaTableAdapter();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facturasBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -112,6 +112,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -125,48 +126,10 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.dataGridView1.DataSource = this.verFacturaCompletaBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 76);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 76);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1038, 443);
             this.dataGridView1.TabIndex = 25;
-            // 
-            // facturasBindingSource
-            // 
-            this.facturasBindingSource.DataMember = "Facturas";
-            this.facturasBindingSource.DataSource = this.consesionariaDataSet1;
-            // 
-            // consesionariaDataSet1
-            // 
-            this.consesionariaDataSet1.DataSetName = "ConsesionariaDataSet1";
-            this.consesionariaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // consesionariaDataSet
-            // 
-            this.consesionariaDataSet.DataSetName = "ConsesionariaDataSet";
-            this.consesionariaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // consesionariaDataSetBindingSource
-            // 
-            this.consesionariaDataSetBindingSource.DataSource = this.consesionariaDataSet;
-            this.consesionariaDataSetBindingSource.Position = 0;
-            // 
-            // facturasTableAdapter
-            // 
-            this.facturasTableAdapter.ClearBeforeFill = true;
-            // 
-            // consesionariaDataSet2
-            // 
-            this.consesionariaDataSet2.DataSetName = "ConsesionariaDataSet2";
-            this.consesionariaDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // verFacturaCompletaBindingSource1
-            // 
-            this.verFacturaCompletaBindingSource1.DataMember = "VerFacturaCompleta";
-            this.verFacturaCompletaBindingSource1.DataSource = this.consesionariaDataSet2;
-            // 
-            // verFacturaCompletaTableAdapter
-            // 
-            this.verFacturaCompletaTableAdapter.ClearBeforeFill = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -228,6 +191,44 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "Precio";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
+            // verFacturaCompletaBindingSource1
+            // 
+            this.verFacturaCompletaBindingSource1.DataMember = "VerFacturaCompleta";
+            this.verFacturaCompletaBindingSource1.DataSource = this.consesionariaDataSet2;
+            // 
+            // consesionariaDataSet2
+            // 
+            this.consesionariaDataSet2.DataSetName = "ConsesionariaDataSet2";
+            this.consesionariaDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // facturasBindingSource
+            // 
+            this.facturasBindingSource.DataMember = "Facturas";
+            this.facturasBindingSource.DataSource = this.consesionariaDataSet1;
+            // 
+            // consesionariaDataSet1
+            // 
+            this.consesionariaDataSet1.DataSetName = "ConsesionariaDataSet1";
+            this.consesionariaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // consesionariaDataSet
+            // 
+            this.consesionariaDataSet.DataSetName = "ConsesionariaDataSet";
+            this.consesionariaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // consesionariaDataSetBindingSource
+            // 
+            this.consesionariaDataSetBindingSource.DataSource = this.consesionariaDataSet;
+            this.consesionariaDataSetBindingSource.Position = 0;
+            // 
+            // facturasTableAdapter
+            // 
+            this.facturasTableAdapter.ClearBeforeFill = true;
+            // 
+            // verFacturaCompletaTableAdapter
+            // 
+            this.verFacturaCompletaTableAdapter.ClearBeforeFill = true;
+            // 
             // FormOrdenes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,13 +243,13 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facturasBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.consesionariaDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.verFacturaCompletaBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -52,7 +52,7 @@
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca.ForeColor = System.Drawing.Color.Gold;
+            this.lblMarca.ForeColor = System.Drawing.Color.Moccasin;
             this.lblMarca.Location = new System.Drawing.Point(6, 179);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(68, 21);
@@ -63,9 +63,10 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
+            this.lblPrecio.BackColor = System.Drawing.Color.Transparent;
             this.lblPrecio.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrecio.ForeColor = System.Drawing.Color.Gold;
-            this.lblPrecio.Location = new System.Drawing.Point(185, 108);
+            this.lblPrecio.Location = new System.Drawing.Point(5, 9);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(76, 28);
             this.lblPrecio.TabIndex = 3;
@@ -77,8 +78,8 @@
             this.btnver.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.btnver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnver.ForeColor = System.Drawing.Color.Gold;
-            this.btnver.Location = new System.Drawing.Point(164, 159);
+            this.btnver.ForeColor = System.Drawing.Color.Moccasin;
+            this.btnver.Location = new System.Drawing.Point(154, 161);
             this.btnver.Name = "btnver";
             this.btnver.Size = new System.Drawing.Size(93, 30);
             this.btnver.TabIndex = 4;
