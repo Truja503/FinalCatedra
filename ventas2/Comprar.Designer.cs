@@ -108,6 +108,7 @@
             // 
             // txtCantidad
             // 
+            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtCantidad.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.txtCantidad.Location = new System.Drawing.Point(173, 358);
             this.txtCantidad.Name = "txtCantidad";
@@ -140,6 +141,7 @@
             // 
             // txtPrecio
             // 
+            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtPrecio.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.txtPrecio.Location = new System.Drawing.Point(157, 403);
             this.txtPrecio.Name = "txtPrecio";
@@ -159,6 +161,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.textBox1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox1.Location = new System.Drawing.Point(173, 297);
             this.textBox1.Name = "textBox1";
