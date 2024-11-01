@@ -41,7 +41,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Mistral", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblNombre.Location = new System.Drawing.Point(4, 145);
+            this.lblNombre.Location = new System.Drawing.Point(14, 156);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(82, 34);
             this.lblNombre.TabIndex = 1;
@@ -53,7 +53,7 @@
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblMarca.Location = new System.Drawing.Point(6, 179);
+            this.lblMarca.Location = new System.Drawing.Point(16, 201);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(68, 21);
             this.lblMarca.TabIndex = 2;
@@ -75,11 +75,11 @@
             // 
             // btnver
             // 
-            this.btnver.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.btnver.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
             this.btnver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnver.ForeColor = System.Drawing.Color.Moccasin;
-            this.btnver.Location = new System.Drawing.Point(154, 161);
+            this.btnver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
+            this.btnver.Location = new System.Drawing.Point(153, 192);
             this.btnver.Name = "btnver";
             this.btnver.Size = new System.Drawing.Size(93, 30);
             this.btnver.TabIndex = 4;
@@ -92,7 +92,7 @@
             this.ImagenCard.Dock = System.Windows.Forms.DockStyle.Top;
             this.ImagenCard.Location = new System.Drawing.Point(0, 0);
             this.ImagenCard.Name = "ImagenCard";
-            this.ImagenCard.Size = new System.Drawing.Size(260, 142);
+            this.ImagenCard.Size = new System.Drawing.Size(260, 153);
             this.ImagenCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ImagenCard.TabIndex = 0;
             this.ImagenCard.TabStop = false;
@@ -110,7 +110,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.ImagenCard);
             this.Name = "Card";
-            this.Size = new System.Drawing.Size(260, 203);
+            this.Size = new System.Drawing.Size(260, 229);
             this.Load += new System.EventHandler(this.Card_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImagenCard)).EndInit();
             this.ResumeLayout(false);
