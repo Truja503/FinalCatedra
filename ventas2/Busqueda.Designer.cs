@@ -28,16 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Busqueda));
             this.PanelTargetas2 = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
             // 
             // PanelTargetas2
             // 
             this.PanelTargetas2.AutoSize = true;
+            this.PanelTargetas2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelTargetas2.BackgroundImage")));
+            this.PanelTargetas2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelTargetas2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelTargetas2.Location = new System.Drawing.Point(0, 0);
             this.PanelTargetas2.Name = "PanelTargetas2";
-            this.PanelTargetas2.Size = new System.Drawing.Size(800, 450);
+            this.PanelTargetas2.Size = new System.Drawing.Size(1004, 459);
             this.PanelTargetas2.TabIndex = 0;
             // 
             // Busqueda
@@ -45,7 +48,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1004, 459);
             this.Controls.Add(this.PanelTargetas2);
             this.Name = "Busqueda";
             this.Text = "Busqueda";

@@ -108,7 +108,17 @@ namespace ventas2
 
         private void Publico_Load(object sender, EventArgs e)
         {
-
+            using (ConsesionariaEntities db = new ConsesionariaEntities())
+            {
+                var carro = db.Vehiculoes.Find(1002);
+                if (carro != null)
+                {
+                    lblNombreVehiculo.Text = carro.NombreVehiculo;
+                    lblmarca.Text = carro.MarcaVehiculo.NombreMarca;
+                    lblmodelo.Text = carro.Modelo;
+                    lblprecio.Text = carro.Precio != null ? carro.Precio.Value.ToString("C") : "N/A";
+                }
+            }
         }
 
         private void Publico_FormClosed(object sender, FormClosedEventArgs e)
@@ -121,6 +131,14 @@ namespace ventas2
             FormUsuario formUsuario = new FormUsuario();
             formUsuario.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Destalles detallesForm = new Destalles();
+            detallesForm.LoadProductDetails(1002); // Pasar el ID del producto a la ventana de detalles
+            detallesForm.Show();
+            this.FindForm()?.Hide();
         }
     }
 }

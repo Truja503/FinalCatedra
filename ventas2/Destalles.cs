@@ -35,7 +35,7 @@ namespace ventas2
                         lblPrecio.Text = "$" + producto.Precio.ToString();
                         lblModelo.Text = producto.Modelo;
                         lblDescripcion.Text = producto.Descripcion.ToString();
-                        lblaño.Text = producto.Año.ToString();
+                        label4.Text = producto.Año.ToString();
                        
                         // Convertir la imagen de bytes a Image
                         if (producto.Imagen != null)
@@ -47,8 +47,8 @@ namespace ventas2
                             ImagenDetalle.Image = null;
                         }
 
-                        lblMotor.Text = producto.Motor.ToString();
-                        lblTrans.Text = producto.Transmision.ToString();
+                        label1.Text = producto.Motor.ToString();
+                        label2.Text = producto.Transmision.ToString();
                     }
                     else
                     {
