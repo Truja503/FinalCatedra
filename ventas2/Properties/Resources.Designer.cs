@@ -59,5 +59,35 @@ namespace ventas2.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_10_31_225526 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-10-31 225526", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_10_31_a_las_15_37_57_c74864d3 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2024-10-31 a las 15.37.57_c74864d3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_10_31_a_las_15_50_22_3b066867 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2024-10-31 a las 15.50.22_3b066867", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

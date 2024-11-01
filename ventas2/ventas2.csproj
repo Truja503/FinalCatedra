@@ -388,6 +388,9 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Captura de pantalla 2024-10-31 225526.png" />
+    <None Include="Resources\Imagen de WhatsApp 2024-10-31 a las 15.50.22_3b066867.jpg" />
+    <None Include="Resources\Imagen de WhatsApp 2024-10-31 a las 15.37.57_c74864d3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

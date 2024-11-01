@@ -128,5 +128,10 @@ namespace ventas2
                 }
             }
         }
+
+        private void Comprar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
