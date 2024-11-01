@@ -117,6 +117,7 @@ namespace ventas2
         {
             FormOrdenes ordenes = new FormOrdenes();
             ordenes.Show();
+            this.Hide();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)

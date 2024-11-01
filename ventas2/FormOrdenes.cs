@@ -42,7 +42,9 @@ namespace ventas2
 
         private void FormOrdenes_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            FormAgregarProducto formAgregar = new FormAgregarProducto();
+            formAgregar.Show();
+            this.Hide();
         }
     }
 }
