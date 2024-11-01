@@ -70,6 +70,7 @@ namespace ventas2
                         login.idUser = administrador.IdAdmin;
                         login.username = administrador.Nombre;
                         // Usuario encontrado en la tabla de Administradores
+                        login.Admin = true;
                         MessageBox.Show("Ola administrador, bienvenido a la aplicación.");
                         FormProductos privado = new FormProductos();
                         privado.Show();

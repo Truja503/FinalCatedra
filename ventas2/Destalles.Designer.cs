@@ -52,7 +52,7 @@
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca.ForeColor = System.Drawing.Color.Gold;
+            this.lblMarca.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
             this.lblMarca.Location = new System.Drawing.Point(16, 232);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(44, 17);
@@ -64,8 +64,8 @@
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.ForeColor = System.Drawing.Color.Gold;
-            this.lblPrecio.Location = new System.Drawing.Point(326, 220);
+            this.lblPrecio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
+            this.lblPrecio.Location = new System.Drawing.Point(250, 218);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(87, 31);
             this.lblPrecio.TabIndex = 3;
@@ -76,8 +76,8 @@
             // 
             this.lblModelo.AutoSize = true;
             this.lblModelo.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblModelo.ForeColor = System.Drawing.Color.Gold;
-            this.lblModelo.Location = new System.Drawing.Point(342, 0);
+            this.lblModelo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
+            this.lblModelo.Location = new System.Drawing.Point(28, 0);
             this.lblModelo.Name = "lblModelo";
             this.lblModelo.Size = new System.Drawing.Size(73, 36);
             this.lblModelo.TabIndex = 4;
@@ -87,8 +87,8 @@
             // btnRegresar
             // 
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresar.Font = new System.Drawing.Font("Mistral", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.Color.Gold;
+            this.btnRegresar.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
             this.btnRegresar.Location = new System.Drawing.Point(19, 500);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(90, 35);
@@ -123,9 +123,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gold;
+            this.label2.ForeColor = System.Drawing.Color.Moccasin;
             this.label2.Location = new System.Drawing.Point(31, 410);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 17);
@@ -136,9 +136,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gold;
+            this.label1.ForeColor = System.Drawing.Color.Moccasin;
             this.label1.Location = new System.Drawing.Point(66, 347);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 17);
@@ -149,9 +149,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Gold;
+            this.label3.ForeColor = System.Drawing.Color.Moccasin;
             this.label3.Location = new System.Drawing.Point(272, 346);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 17);
@@ -162,9 +162,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Black;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gold;
+            this.label4.ForeColor = System.Drawing.Color.Moccasin;
             this.label4.Location = new System.Drawing.Point(272, 409);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 17);
@@ -175,9 +175,9 @@
             // btnOrdenar
             // 
             this.btnOrdenar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdenar.Font = new System.Drawing.Font("Mistral", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenar.ForeColor = System.Drawing.Color.Gold;
-            this.btnOrdenar.Location = new System.Drawing.Point(273, 500);
+            this.btnOrdenar.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdenar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
+            this.btnOrdenar.Location = new System.Drawing.Point(275, 500);
             this.btnOrdenar.Name = "btnOrdenar";
             this.btnOrdenar.Size = new System.Drawing.Size(140, 35);
             this.btnOrdenar.TabIndex = 21;
@@ -190,8 +190,8 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblNombre.Font = new System.Drawing.Font("Mistral", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.ForeColor = System.Drawing.Color.Gold;
-            this.lblNombre.Location = new System.Drawing.Point(173, 0);
+            this.lblNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(200)))), ((int)(((byte)(100)))));
+            this.lblNombre.Location = new System.Drawing.Point(170, 0);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(100, 42);
             this.lblNombre.TabIndex = 1;
@@ -202,22 +202,23 @@
             // 
             this.lblMotor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblMotor.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMotor.ForeColor = System.Drawing.Color.Gold;
-            this.lblMotor.Location = new System.Drawing.Point(124, 335);
+            this.lblMotor.ForeColor = System.Drawing.Color.Moccasin;
+            this.lblMotor.Location = new System.Drawing.Point(124, 334);
             this.lblMotor.Name = "lblMotor";
-            this.lblMotor.Size = new System.Drawing.Size(53, 40);
+            this.lblMotor.Size = new System.Drawing.Size(67, 40);
             this.lblMotor.TabIndex = 22;
             this.lblMotor.Text = "button1";
             this.lblMotor.UseVisualStyleBackColor = true;
+            this.lblMotor.Click += new System.EventHandler(this.lblMotor_Click_1);
             // 
             // lblTrans
             // 
             this.lblTrans.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTrans.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrans.ForeColor = System.Drawing.Color.Gold;
+            this.lblTrans.ForeColor = System.Drawing.Color.Moccasin;
             this.lblTrans.Location = new System.Drawing.Point(124, 405);
             this.lblTrans.Name = "lblTrans";
-            this.lblTrans.Size = new System.Drawing.Size(113, 27);
+            this.lblTrans.Size = new System.Drawing.Size(127, 27);
             this.lblTrans.TabIndex = 23;
             this.lblTrans.Text = "button1";
             this.lblTrans.UseVisualStyleBackColor = true;
@@ -225,21 +226,22 @@
             // lblCantidad
             // 
             this.lblCantidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblCantidad.ForeColor = System.Drawing.Color.Gold;
+            this.lblCantidad.ForeColor = System.Drawing.Color.Moccasin;
             this.lblCantidad.Location = new System.Drawing.Point(332, 335);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(53, 40);
+            this.lblCantidad.Size = new System.Drawing.Size(67, 40);
             this.lblCantidad.TabIndex = 24;
             this.lblCantidad.Text = "button1";
             this.lblCantidad.UseVisualStyleBackColor = true;
+            this.lblCantidad.Click += new System.EventHandler(this.lblCantidad_Click);
             // 
             // lblaño
             // 
             this.lblaño.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblaño.ForeColor = System.Drawing.Color.Gold;
+            this.lblaño.ForeColor = System.Drawing.Color.Moccasin;
             this.lblaño.Location = new System.Drawing.Point(332, 392);
             this.lblaño.Name = "lblaño";
-            this.lblaño.Size = new System.Drawing.Size(53, 40);
+            this.lblaño.Size = new System.Drawing.Size(67, 40);
             this.lblaño.TabIndex = 25;
             this.lblaño.Text = "button1";
             this.lblaño.UseVisualStyleBackColor = true;
@@ -249,6 +251,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(446, 547);
             this.Controls.Add(this.lblaño);
             this.Controls.Add(this.lblCantidad);

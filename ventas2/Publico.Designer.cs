@@ -59,7 +59,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1248, 58);
+            this.panel2.Size = new System.Drawing.Size(1379, 58);
             this.panel2.TabIndex = 24;
             // 
             // label12
@@ -146,7 +146,7 @@
             this.PanelTargetas.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelTargetas.Location = new System.Drawing.Point(0, 376);
             this.PanelTargetas.Name = "PanelTargetas";
-            this.PanelTargetas.Size = new System.Drawing.Size(1248, 383);
+            this.PanelTargetas.Size = new System.Drawing.Size(1379, 383);
             this.PanelTargetas.TabIndex = 28;
             this.PanelTargetas.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelTargetas_Paint);
             // 
@@ -154,7 +154,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(188, 84);
+            this.pictureBox1.Location = new System.Drawing.Point(228, 76);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(406, 274);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,44 +164,44 @@
             // lblNombreVehiculo
             // 
             this.lblNombreVehiculo.AutoSize = true;
-            this.lblNombreVehiculo.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreVehiculo.Font = new System.Drawing.Font("Mistral", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreVehiculo.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblNombreVehiculo.Location = new System.Drawing.Point(661, 84);
+            this.lblNombreVehiculo.Location = new System.Drawing.Point(707, 76);
             this.lblNombreVehiculo.Name = "lblNombreVehiculo";
-            this.lblNombreVehiculo.Size = new System.Drawing.Size(295, 46);
+            this.lblNombreVehiculo.Size = new System.Drawing.Size(370, 76);
             this.lblNombreVehiculo.TabIndex = 29;
             this.lblNombreVehiculo.Text = "Nombre Vehiculo";
             // 
             // lblmarca
             // 
             this.lblmarca.AutoSize = true;
-            this.lblmarca.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmarca.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmarca.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblmarca.Location = new System.Drawing.Point(673, 174);
+            this.lblmarca.Location = new System.Drawing.Point(713, 176);
             this.lblmarca.Name = "lblmarca";
-            this.lblmarca.Size = new System.Drawing.Size(69, 28);
+            this.lblmarca.Size = new System.Drawing.Size(89, 34);
             this.lblmarca.TabIndex = 30;
             this.lblmarca.Text = "Marca";
             // 
             // lblmodelo
             // 
             this.lblmodelo.AutoSize = true;
-            this.lblmodelo.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmodelo.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmodelo.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblmodelo.Location = new System.Drawing.Point(673, 234);
+            this.lblmodelo.Location = new System.Drawing.Point(713, 236);
             this.lblmodelo.Name = "lblmodelo";
-            this.lblmodelo.Size = new System.Drawing.Size(79, 28);
+            this.lblmodelo.Size = new System.Drawing.Size(103, 34);
             this.lblmodelo.TabIndex = 31;
             this.lblmodelo.Text = "Modelo";
             // 
             // lblprecio
             // 
             this.lblprecio.AutoSize = true;
-            this.lblprecio.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblprecio.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblprecio.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblprecio.Location = new System.Drawing.Point(1007, 234);
+            this.lblprecio.Location = new System.Drawing.Point(1047, 236);
             this.lblprecio.Name = "lblprecio";
-            this.lblprecio.Size = new System.Drawing.Size(70, 28);
+            this.lblprecio.Size = new System.Drawing.Size(90, 34);
             this.lblprecio.TabIndex = 32;
             this.lblprecio.Text = "Precio";
             // 
@@ -210,9 +210,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Moccasin;
-            this.button1.Location = new System.Drawing.Point(669, 316);
+            this.button1.Location = new System.Drawing.Point(719, 304);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(408, 33);
+            this.button1.Size = new System.Drawing.Size(418, 33);
             this.button1.TabIndex = 30;
             this.button1.Text = "Comprar";
             this.button1.UseVisualStyleBackColor = true;
@@ -224,7 +224,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1248, 759);
+            this.ClientSize = new System.Drawing.Size(1379, 759);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblprecio);
             this.Controls.Add(this.lblmodelo);

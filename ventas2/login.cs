@@ -11,5 +11,7 @@ namespace ventas2
         public static  int idUser { get; set; }
         public static string username { get; set; }
 
+        public static bool Admin { get; set; }
+
     }
 }

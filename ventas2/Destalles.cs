@@ -35,7 +35,7 @@ namespace ventas2
                         lblPrecio.Text = "$" + producto.Precio.ToString();
                         lblModelo.Text = producto.Modelo;
                         lblDescripcion.Text = producto.Descripcion.ToString();
-                        label4.Text = producto.Año.ToString();
+                        lblaño.Text = producto.Año.ToString();
                        
                         // Convertir la imagen de bytes a Image
                         if (producto.Imagen != null)
@@ -47,8 +47,9 @@ namespace ventas2
                             ImagenDetalle.Image = null;
                         }
 
-                        label1.Text = producto.Motor.ToString();
-                        label2.Text = producto.Transmision.ToString();
+                        lblMotor.Text = producto.Motor.ToString();
+                        lblTrans.Text = producto.Transmision.ToString();
+                        lblCantidad.Text = producto.Cantidad.ToString();
                     }
                     else
                     {
@@ -116,9 +117,17 @@ namespace ventas2
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            FormProductos formProductos = new FormProductos();
-            formProductos.Show();
-            this.Hide();
+            if (login.Admin)
+            {
+                FormProductos formProductos = new FormProductos();
+                formProductos.Show();
+                this.Hide();
+            }
+            else{
+                Publico publico = new Publico();
+                publico.Show();
+                this.Hide();
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -185,6 +194,16 @@ namespace ventas2
             {
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK);
             }
+        }
+
+        private void lblCantidad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMotor_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
