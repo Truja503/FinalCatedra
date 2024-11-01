@@ -70,11 +70,11 @@
             // txtOnombre
             // 
             this.txtOnombre.AutoSize = true;
-            this.txtOnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOnombre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtOnombre.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOnombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtOnombre.Location = new System.Drawing.Point(145, 9);
             this.txtOnombre.Name = "txtOnombre";
-            this.txtOnombre.Size = new System.Drawing.Size(147, 39);
+            this.txtOnombre.Size = new System.Drawing.Size(148, 46);
             this.txtOnombre.TabIndex = 19;
             this.txtOnombre.Text = "Compra";
             // 
