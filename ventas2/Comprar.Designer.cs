@@ -58,7 +58,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.BackgroundImage = global::ventas2.Properties.Resources.Imagen_de_WhatsApp_2024_10_31_a_las_15_37_57_c74864d3;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.txtOnombre);
@@ -74,11 +74,11 @@
             this.txtOnombre.AutoSize = true;
             this.txtOnombre.BackColor = System.Drawing.Color.Transparent;
             this.txtOnombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtOnombre.Font = new System.Drawing.Font("Ink Free", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOnombre.ForeColor = System.Drawing.Color.Gold;
-            this.txtOnombre.Location = new System.Drawing.Point(243, -3);
+            this.txtOnombre.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOnombre.ForeColor = System.Drawing.Color.Goldenrod;
+            this.txtOnombre.Location = new System.Drawing.Point(227, -6);
             this.txtOnombre.Name = "txtOnombre";
-            this.txtOnombre.Size = new System.Drawing.Size(186, 62);
+            this.txtOnombre.Size = new System.Drawing.Size(200, 65);
             this.txtOnombre.TabIndex = 19;
             this.txtOnombre.Text = "Compra";
             // 
@@ -105,6 +105,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label3.Location = new System.Drawing.Point(31, 432);
@@ -128,13 +129,15 @@
             // 
             // btnOrdenar
             // 
-            this.btnOrdenar.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnOrdenar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrdenar.BackColor = System.Drawing.Color.Black;
+            this.btnOrdenar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnOrdenar.FlatAppearance.BorderSize = 5;
+            this.btnOrdenar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrdenar.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenar.ForeColor = System.Drawing.Color.Black;
-            this.btnOrdenar.Location = new System.Drawing.Point(494, 514);
+            this.btnOrdenar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnOrdenar.Location = new System.Drawing.Point(494, 545);
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(146, 38);
+            this.btnOrdenar.Size = new System.Drawing.Size(146, 49);
             this.btnOrdenar.TabIndex = 30;
             this.btnOrdenar.Text = "Comprar";
             this.btnOrdenar.UseVisualStyleBackColor = false;
@@ -144,6 +147,7 @@
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblMarca.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblMarca.Location = new System.Drawing.Point(31, 357);
@@ -168,6 +172,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(32, 511);
@@ -191,12 +196,13 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Goldenrod;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(251, 432);
+            this.button1.Location = new System.Drawing.Point(255, 432);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 39);
+            this.button1.Size = new System.Drawing.Size(143, 44);
             this.button1.TabIndex = 35;
             this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = false;
@@ -220,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = global::ventas2.Properties.Resources.Captura_de_pantalla_2024_10_31_225526;
+            this.BackgroundImage = global::ventas2.Properties.Resources.Imagen_de_WhatsApp_2024_10_31_a_las_15_50_24_dee0659f;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(652, 624);
             this.Controls.Add(this.label4);
